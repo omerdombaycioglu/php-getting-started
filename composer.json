@@ -26,11 +26,11 @@
     }
   },
   "config": {
-    "platform": {
-      "php": "8.1",
-      "ext-pdo": "*",
-      "ext-mysqli": "*"
-    },
+  "platform-check": false,
+  "preferred-install": "dist",
+  "sort-packages": true,
+  "optimize-autoloader": true
+},
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "sort-packages": true,
