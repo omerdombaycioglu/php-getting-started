@@ -12,6 +12,7 @@ build = {
     "composer install --no-dev --ignore-platform-reqs --optimize-autoloader"
   ]
 }
-start = { 
-  cmd = "php -S 0.0.0.0:$PORT -t public public/index.php"
-}
+
+[start]
+cmd = "php -S 0.0.0.0:$PORT -t public public/index.php"
+
