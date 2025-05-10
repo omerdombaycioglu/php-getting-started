@@ -1,5 +1,5 @@
 <?php
-$host = "tramway.proxy.rlwy.net";
+$host = "mysql-production-51e4.up.railway.app";
 $port = 21309;
 $dbname = "railway";
 $username = "root";
