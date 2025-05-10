@@ -26,17 +26,13 @@
     }
   },
   "config": {
-  "platform-check": false,
-  "preferred-install": "dist",
-  "sort-packages": true,
-  "optimize-autoloader": true
-},
-    "optimize-autoloader": true,
+    "platform-check": false,
     "preferred-install": "dist",
     "sort-packages": true,
-    "allow-plugins": {
-      "php-di/php-di": true
-    }
+    "optimize-autoloader": true
+  },
+  "allow-plugins": {
+    "php-di/php-di": true
   },
   "scripts": {
     "start": "php -S 0.0.0.0:$PORT -t public",
