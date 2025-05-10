@@ -1,5 +1,8 @@
 {
-  "require" : {
+  "name": "astonishing-endurance/flutter-backend",
+  "description": "API Backend for Flutter Application",
+  "type": "project",
+  "require": {
     "php": "^8.1",
     "php-di/php-di": "^7.0",
     "slim/slim": "^4.0",
@@ -9,7 +12,13 @@
     "twig/twig": "^3.0",
     "slim/twig-view": "^3.0"
   },
-  "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
+  "config": {
+    "platform": {
+      "php": "8.1"
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT -t public"
   }
 }
